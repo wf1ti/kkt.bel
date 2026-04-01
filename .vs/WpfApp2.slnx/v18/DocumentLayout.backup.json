@@ -1,0 +1,285 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|c:\\users\\terno\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\wpfapp2\\wpfapp2\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\sportsstoremodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\sportsstoremodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\wpfapp2\\sportsstoremodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68202194-2987-4EAE-B392-DC4EE78A0DE4}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\sportsstoremodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WpfApp2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:55:30.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Categories.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\Categories.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Categories.cs",
+              "RelativeToolTip": "WpfApp2\\Categories.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:54:47.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\ProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\ProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\ProductWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp2\\ProductWindow.xaml.cs",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:12:33.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-31T23:42:13.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\ProductWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\ProductWindow.xaml",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\ProductWindow.xaml",
+              "RelativeToolTip": "WpfApp2\\ProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T00:11:16.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp2\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:13:27.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp2\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T00:13:23.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Users.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\Users.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Users.cs",
+              "RelativeToolTip": "WpfApp2\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:49:06.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Products.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\Products.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\Products.cs",
+              "RelativeToolTip": "WpfApp2\\Products.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:22:38.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SportsStoreModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\SportsStoreModel.edmx",
+              "RelativeDocumentMoniker": "WpfApp2\\SportsStoreModel.edmx",
+              "ToolTip": "C:\\Users\\Docker\\source\\repos\\WpfApp2\\WpfApp2\\SportsStoreModel.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Docker\\source\\repos\\WpfApp2\\WpfApp2\\SportsStoreModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-03-31T23:53:13.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SportsStoreModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\SportsStoreModel.Context.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\SportsStoreModel.Context.cs",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\SportsStoreModel.Context.cs",
+              "RelativeToolTip": "WpfApp2\\SportsStoreModel.Context.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T00:18:16.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WpfApp2",
+              "DocumentMoniker": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+              "RelativeDocumentMoniker": "WpfApp2\\WpfApp2.csproj",
+              "ToolTip": "C:\\Users\\terno\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\home\\gachi-linux\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\WpfApp2\\WpfApp2\\WpfApp2.csproj",
+              "RelativeToolTip": "WpfApp2\\WpfApp2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T00:05:25.155Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 76,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

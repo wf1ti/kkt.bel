@@ -1,0 +1,50 @@
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\LoginWindow.g.cs
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\ProductWindow.g.cs
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\LoginWindow.baml
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\ProductWindow.baml
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.Up2Date
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\Docker\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\LoginWindow.baml
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\LoginWindow.g.cs
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\ProductWindow.g.cs
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\ProductWindow.baml
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.Up2Date
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\terno\OneDrive\Рабочий стол\home\gachi-linux\Документы\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb

@@ -1,0 +1,723 @@
+﻿<Window x:Class="WpfApp2.ProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" 
+        Height="650" Width="700"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="NoResize">
+    <Window.Background>
+
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+            <GradientStop Color="#FF1E3C72" Offset="0"/>
+
+            <GradientStop Color="#FF2A5298" Offset="1"/>
+
+        </LinearGradientBrush>
+
+    </Window.Background>
+
+
+    <Grid Margin="20">
+
+        <Border Background="White" 
+                CornerRadius="10" 
+                Padding="25">
+            
+            <Grid>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0" Margin="0,0,0,20">
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Orientation="Horizontal">
+                        <Ellipse Width="40" Height="40" Stroke="#1E3C72" StrokeThickness="2">
+                            <Ellipse.Fill>
+
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+
+                                    <GradientStop Color="#FF4CAF50" Offset="0"/>
+                                    <GradientStop Color="#FF2E7D32" Offset="1"/>
+
+                                </LinearGradientBrush>
+
+                            </Ellipse.Fill>
+
+                        </Ellipse>
+
+                        <TextBlock Text="{Binding WindowTitle}" 
+
+                                   FontSize="22" 
+                                   FontWeight="Bold" 
+                                   VerticalAlignment="Center"
+                                   Margin="10,0,0,0"
+                                   Foreground="#1E3C72"/>
+
+                    </StackPanel>
+
+                    <Button Grid.Column="2" 
+                        Content="✕" 
+                         Width="35" 
+                         Height="35"
+                         Background="Transparent"
+                         BorderBrush="#DDD"
+                         BorderThickness="1"
+                         FontSize="18"
+                         Cursor="Hand">
+
+                        <Button.Resources>
+
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+
+                        </Button.Resources>
+
+                        <Button.Style>
+
+                            <Style TargetType="Button">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#f44336"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+
+                        </Button.Style>
+
+                    </Button>
+
+                </Grid>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+
+                    <StackPanel Margin="0,0,10,0">
+
+                        <Border Background="#F5F5F5" 
+
+                                CornerRadius="8" 
+                                Padding="20"
+                                Margin="0,0,0,20">
+
+                            <StackPanel>
+
+                                <TextBlock Text="Основная информация" 
+
+                                           FontSize="16" 
+                                           FontWeight="SemiBold" 
+                                           Foreground="#1E3C72"
+                                           Margin="0,0,0,15"/>
+
+                                <StackPanel Margin="0,0,0,15">
+
+                                    <TextBlock Text="Наименование товара *" 
+
+                                               Foreground="#666"
+                                               Margin="0,0,0,5"/>
+
+                                    <TextBox x:Name="txtName" 
+
+                                             Height="40" 
+                                             Padding="10"
+                                             BorderBrush="#DDD"
+                                             BorderThickness="1"
+                                             Background="White"
+                                             Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}">
+
+                                        <TextBox.Resources>
+
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="5"/>
+                                            </Style>
+
+                                        </TextBox.Resources>
+
+                                    </TextBox>
+
+                                </StackPanel>
+
+
+                                <Grid Margin="0,0,0,15">
+
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Text="Категория *" 
+               Foreground="#666"
+               Margin="0,0,0,5"/>
+                                        <ComboBox x:Name="cmbCategory" 
+              Height="40"
+              BorderBrush="#DDD"
+              Background="White"
+              IsEditable="True"
+              IsTextSearchEnabled="True"
+              StaysOpenOnEdit="True">
+                                            <ComboBox.Resources>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+                                            </ComboBox.Resources>
+                                        </ComboBox>
+                                    </StackPanel>
+
+
+                                    <StackPanel Grid.Column="2">
+
+                                        <TextBlock Text="Цена *" 
+
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtPrice" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+
+                                                 Text="{Binding Price, UpdateSourceTrigger=PropertyChanged}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+                                </Grid>
+
+                                <Grid Margin="0,0,0,5">
+
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0">
+
+                                        <TextBlock Text="Количество *" 
+
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtQuantity" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+                                                 Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+
+                                    <StackPanel Grid.Column="2">
+
+                                        <TextBlock Text="Статус" 
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <ComboBox x:Name="cmbStatus" 
+
+                                                  Height="40"
+                                                  BorderBrush="#DDD"
+                                                  Background="White"
+                                                  SelectedValue="{Binding Status}">
+
+                                            <ComboBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </ComboBox.Resources>
+
+                                            <ComboBoxItem Content="В наличии">
+
+                                                <ComboBoxItem.Foreground>
+                                                    <SolidColorBrush Color="#4CAF50"/>
+                                                </ComboBoxItem.Foreground>
+
+                                            </ComboBoxItem>
+
+                                            <ComboBoxItem Content="Мало">
+
+                                                <ComboBoxItem.Foreground>
+                                                    <SolidColorBrush Color="#FF9800"/>
+                                                </ComboBoxItem.Foreground>
+
+                                            </ComboBoxItem>
+
+                                            <ComboBoxItem Content="Нет в наличии">
+
+                                                <ComboBoxItem.Foreground>
+                                                    <SolidColorBrush Color="#f44336"/>
+                                                </ComboBoxItem.Foreground>
+
+                                            </ComboBoxItem>
+
+                                        </ComboBox>
+
+                                    </StackPanel>
+
+                                </Grid>
+
+                            </StackPanel>
+
+                        </Border>
+
+                        <Border Background="#F5F5F5" 
+
+                                CornerRadius="8" 
+                                Padding="20"
+                                Margin="0,0,0,20">
+
+                            <StackPanel>
+
+                                <TextBlock Text="Дополнительная информация" 
+
+                                           FontSize="16" 
+                                           FontWeight="SemiBold" 
+                                           Foreground="#1E3C72"
+                                           Margin="0,0,0,15"/>
+
+                                <StackPanel Margin="0,0,0,15">
+
+                                    <TextBlock Text="Производитель" 
+
+                                               Foreground="#666"
+                                               Margin="0,0,0,5"/>
+
+                                    <TextBox x:Name="txtManufacturer" 
+
+                                             Height="40" 
+                                             Padding="10"
+                                             BorderBrush="#DDD"
+                                             BorderThickness="1"
+                                             Background="White"
+                                             Text="{Binding Manufacturer}">
+
+                                        <TextBox.Resources>
+
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="5"/>
+                                            </Style>
+
+                                        </TextBox.Resources>
+
+                                    </TextBox>
+
+                                </StackPanel>
+
+                                <StackPanel Margin="0,0,0,15">
+
+                                    <TextBlock Text="Артикул" 
+                                               
+                                               Foreground="#666"
+                                               Margin="0,0,0,5"/>
+
+                                    <TextBox x:Name="txtArticle" 
+
+                                             Height="40" 
+                                             Padding="10"
+                                             BorderBrush="#DDD"
+                                             BorderThickness="1"
+                                             Background="White"
+                                             Text="{Binding Article}">
+
+                                        <TextBox.Resources>
+
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="5"/>
+                                            </Style>
+
+                                        </TextBox.Resources>
+
+                                    </TextBox>
+
+                                </StackPanel>
+
+                                <StackPanel>
+
+                                    <TextBlock Text="Описание" 
+
+                                               Foreground="#666"
+                                               Margin="0,0,0,5"/>
+
+                                    <TextBox x:Name="txtDescription" 
+
+                                             Height="100" 
+                                             Padding="10"
+                                             BorderBrush="#DDD"
+                                             BorderThickness="1"
+                                             Background="White"
+                                             TextWrapping="Wrap"
+                                             AcceptsReturn="True"
+                                             Text="{Binding Description}">
+
+                                        <TextBox.Resources>
+
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="5"/>
+                                            </Style>
+
+                                        </TextBox.Resources>
+
+                                    </TextBox>
+
+                                </StackPanel>
+
+                            </StackPanel>
+
+                        </Border>
+
+                        <Border Background="#F5F5F5" 
+
+                                CornerRadius="8" 
+                                Padding="20"
+                                Margin="0,0,0,20">
+
+                            <StackPanel>
+
+                                <TextBlock Text="Характеристики" 
+
+                                           FontSize="16" 
+                                           FontWeight="SemiBold" 
+                                           Foreground="#1E3C72"
+                                           Margin="0,0,0,15"/>
+
+                                <Grid Margin="0,0,0,15">
+
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0">
+
+                                        <TextBlock Text="Вес (кг)" 
+
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtWeight" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+                                                 Text="{Binding Weight}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+
+                                    <StackPanel Grid.Column="2">
+
+                                        <TextBlock Text="Размер" 
+                                                   
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtSize" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+                                                 Text="{Binding Size}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+                                </Grid>
+
+                                <Grid>
+
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition Width="*"/>
+
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0">
+
+                                        <TextBlock Text="Цвет" 
+
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtColor" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+
+                                                 Text="{Binding Color}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+
+                                    <StackPanel Grid.Column="2">
+
+                                        <TextBlock Text="Материал" 
+
+                                                   Foreground="#666"
+                                                   Margin="0,0,0,5"/>
+
+                                        <TextBox x:Name="txtMaterial" 
+
+                                                 Height="40" 
+                                                 Padding="10"
+                                                 BorderBrush="#DDD"
+                                                 BorderThickness="1"
+                                                 Background="White"
+                                                 Text="{Binding Material}">
+
+                                            <TextBox.Resources>
+
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5"/>
+                                                </Style>
+
+                                            </TextBox.Resources>
+
+                                        </TextBox>
+
+                                    </StackPanel>
+
+                                </Grid>
+
+                            </StackPanel>
+
+                        </Border>
+
+                        <TextBlock Text="* Обязательные поля" 
+
+                                   Foreground="#999"
+                                   FontSize="12"
+                                   FontStyle="Italic"/>
+
+                    </StackPanel>
+
+                </ScrollViewer>
+
+                <Border Grid.Row="2" 
+
+                        Background="#F5F5F5" 
+
+                        CornerRadius="5" 
+
+                        Padding="15"
+
+                        Margin="0,20,0,0">
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition Width="*"/>
+
+                            <ColumnDefinition Width="Auto"/>
+
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition Width="Auto"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Grid.Column="0" 
+            Orientation="Horizontal"
+            Visibility="Collapsed">
+                            <TextBlock Text="Дата добавления: " 
+               Foreground="#666"
+               VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding AddedDate, StringFormat={}{0:dd.MM.yyyy}}" 
+               Foreground="#1E3C72"
+               FontWeight="Bold"
+               VerticalAlignment="Center"/>
+                        </StackPanel>
+
+                        <Button Grid.Column="1" 
+
+                                Content="Отмена" 
+                                Height="40"
+                                Width="120"
+                                Background="White"
+                                BorderBrush="#DDD"
+                                BorderThickness="1"
+                                Foreground="#666"
+                                Cursor="Hand"
+                                Click="CancelButton_Click">
+
+                            <Button.Resources>
+
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="5"/>
+                                </Style>
+
+                            </Button.Resources>
+
+                            <Button.Style>
+
+                                <Style TargetType="Button">
+
+                                    <Style.Triggers>
+
+                                        <Trigger Property="IsMouseOver" Value="True">
+
+                                            <Setter Property="Background" Value="#f44336"/>
+                                            <Setter Property="Foreground" Value="White"/>
+                                            <Setter Property="BorderThickness" Value="0"/>
+
+                                        </Trigger>
+
+                                    </Style.Triggers>
+
+                                </Style>
+
+                            </Button.Style>
+
+                        </Button>
+
+                        <Button Grid.Column="3" 
+
+                                Content="Сохранить" 
+                                Height="40"
+                                Width="120"
+                                Background="#4CAF50"
+                                Foreground="White"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Click="SaveButton_Click">
+
+                            <Button.Resources>
+
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="5"/>
+                                </Style>
+
+                            </Button.Resources>
+
+                            <Button.Style>
+
+                                <Style TargetType="Button">
+
+                                    <Style.Triggers>
+
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#45a049"/>
+                                        </Trigger>
+
+                                        <Trigger Property="IsEnabled" Value="False">
+                                            <Setter Property="Background" Value="#CCCCCC"/>
+                                        </Trigger>
+
+                                    </Style.Triggers>
+
+                                </Style>
+
+                            </Button.Style>
+
+                        </Button>
+
+                    </Grid>
+
+                </Border>
+
+            </Grid>
+
+        </Border>
+
+    </Grid>
+
+</Window>
