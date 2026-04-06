@@ -67,6 +67,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DatabaseInitializer.cs" />
     <Compile Include="Categories.cs">
       <DependentUpon>SportsStoreModel.tt</DependentUpon>
     </Compile>
